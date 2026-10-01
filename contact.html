@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <style>
+         .container
+        {
+
+            background-color: navy;
+            padding: 10px;
+            display: flex;
+            flex-direction: row;
+        }
+        
+        *{
+
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        .my{
+justify-content: flex-start;
+color: white;
+font-size: 35px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+        .but button{
+           justify-content: flex-end;
+           padding: 10px;
+        }
+        .but button{
+           background-color: yellowgreen;
+           padding: 10px;
+           border: none;
+           border-radius: 10px;
+           width: 100px;
+        }
+        .but button:hover{
+            background-color: rgb(47, 63, 16);
+        }
+        .mid{
+            margin: auto;
+            padding: 10px;
+
+
+        }
+        .mid a{
+justify-content: center;
+color: white;
+margin: auto;
+padding: 10px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-decoration: none;
+font-size: 25PX;
+
+        }
+        
+        .cont{
+            margin-top: 40px;
+            text-align: center;
+        }
+        .cont h1{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 40px;
+        }
+        .cont p{
+            color: grey;
+        }
+        form{
+            margin: 80px auto;
+            padding: 50px;
+          
+           box-shadow: 0px 0px  12px rgb(222, 213, 213);
+            text-align: center;
+            width: 400px;
+           
+            
+            border-radius: 10px;
+            
+
+
+        }
+        input[type="text"], input[type="tel"], input[type="password"],textarea{
+
+            padding: 10px;
+            margin-top: 10px;
+            width: 100%;
+           
+        }
+        label{
+            display: none;
+        }
+        button[type="submit"]{
+            background-color: navy;
+            color: white;
+            width: 100%;
+            border: none;
+            padding: 10px;
+            border-radius: 10px;
+        }
+          .card img{
+            width: 50px;
+            height: 50px;
+            transition: 0.3s;
+
+        }
+        .card{
+            box-shadow: 0px 0px 12px rgba(208,203,203);
+            padding: 15px;
+            text-align: center;
+            width: 200px;
+        margin-top: 10px;
+        transition: 0.3s;
+        }
+        .card:hover{
+            transform: translateY(-10px);
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+        }
+        .card:hover img{
+            transform: scale(1.1);
+        }
+        .demo{
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin-bottom: 80px;
+            margin-top: 30px;
+        }
+        form h2{
+            margin-bottom: 8px;
+            font-size: 28px;
+            font-family: cursive;
+        }
+
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="my">
+            MYWebsite
+        </div>
+        <div class="mid">
+<a href="index.html">HOME</a>
+<a href="aboutus.html">ABOUT US</a>
+<a href="SERVICES.html">SERVICES</a>
+<a href="contact.html">CONTACT</a>
+</div>
+
+<div class="but">
+
+    <button>log in</button>
+    
+
+</div>
+</div>
+</div>
+
+<div class="cont">
+    <h1>Contact us</h1><br><br>
+    <p>if you have any doubts? , connect with us</p>
+</div>
+    
+
+
+<form action="">
+    <h2><i> Send Message</i></h2>
+
+
+
+
+
+    <input type="text" name="name" placeholder="enter your name"><br>
+
+
+    
+    <input type="tel" name="phone" placeholder="enter phone no"><br>
+
+
+   
+    <input type="password" name="password" placeholder="enter password"><br>
+    
+    <textarea name="comments" id=""></textarea><br><br>
+
+    <button type="submit">submit</button>
+</form>
+
+
+
+
+
+<div class="demo">
+        <div class="card">
+<img src="https://ancilaansari.github.io/MyWebsite/placeholder.png" alt="">
+<h3>Address</h3>
+<p>kerala , india</p>
+</div>
+<div class="card">
+<img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="">
+<h3>Email</h3>
+<p>mern@info.com</p>
+</div>
+<div class="card">
+    <img src="https://cdn-icons-png.flaticon.com/512/724/724664.png" alt="">
+<h3>Phone</h3>
+<p>+91 999 777 9090</p>
+</div>
+</div>
+
+</body>
+</html>
+
+
